@@ -1,1 +1,1 @@
-{"name":"collaborative-poster-splitter","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","test":"node --test"},"dependencies":{"jspdf":"^3.0.4","vite":"^7.1.0"}}
+{"name":"collaborative-poster-splitter","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","test":"node --test"},"dependencies":{"jspdf":"^3.0.4","pdfjs-dist":"^6.4.299","vite":"^7.1.0"}}
