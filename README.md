@@ -22,3 +22,7 @@ Each piece uses a 10 mm printer margin. Its image area is paper size minus 20 mm
 ## PDF uploads
 
 Upload a PDF up to 30 MB. The first page opens automatically; for a multi-page PDF, use the Poster page selector to choose the page to split. PDF.js renders the selected page locally with a bundled worker, respecting page rotation and page bounds. No external rendering service is used. PDF pages are rasterized at up to 216 DPI, capped at 4096 pixels per side. Password-protected PDFs require an unlocked copy.
+
+## Custom final poster dimensions
+
+Choose **Final poster size → Custom dimensions**, enter width and height, and choose cm, mm or inch. These are the final assembled dimensions, not the paper size. The app automatically calculates a grid that fits A4 or US Letter with 10 mm printer margins, including the selected overlap. All pieces have equal image-area dimensions; unused paper stays white. Cut at the thin black rectangular border, then align the overlap areas. Borders are always present independently of optional cut marks. Print at 100% / Actual size. Custom sizes must be at least 1 mm per side and need no more than 20 rows or columns.
