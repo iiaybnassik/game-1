@@ -1,5 +1,9 @@
 # TPT Thumbnail Studio
 
+## Chrome extension
+
+The new ChatGPT automation extension is in [`extension/`](extension/README.md). It deeply analyzes a style reference, then requests three thumbnails in your existing ChatGPT conversation using your own resource pages and exact text. See that folder for installation, permissions, and compatibility limits. The original web application below remains unchanged.
+
 A private, browser-based prompt builder for three Teachers Pay Teachers thumbnails. Built with Next.js, React, and TypeScript. No API, database, or authentication. The app does not generate images.
 
 ## Run on a Mac

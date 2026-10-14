@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "TPT Thumbnail Studio — ChatGPT Assistant",
+  "version": "1.0.0",
+  "description": "Analyze a reference and build three resource thumbnails inside your own ChatGPT conversation.",
+  "permissions": ["storage", "unlimitedStorage", "sidePanel"],
+  "host_permissions": ["https://chatgpt.com/*"],
+  "action": { "default_title": "Open TPT Thumbnail Studio" },
+  "background": { "service_worker": "background.js" },
+  "side_panel": { "default_path": "panel.html" },
+  "content_scripts": [{ "matches": ["https://chatgpt.com/*"], "js": ["shared.js", "content.js"], "run_at": "document_idle" }]
+}
